@@ -36,9 +36,9 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/">
+        /*<Navbar.Brand href="/">
           <img src={logo} className="img-fluid logo" alt="brand" />
-        </Navbar.Brand>
+        </Navbar.Brand>*/
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {
@@ -81,7 +81,7 @@ function NavBar() {
 
             
 
-            <Nav.Item className="fork-btn">
+            /*<Nav.Item className="fork-btn">
               <Button
                 href="https://github.com/ElMehdiAQRCHAL/e-portfolio"
                 target="_blank"
@@ -90,7 +90,7 @@ function NavBar() {
                 <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
                 <AiFillStar style={{ fontSize: "1.1em" }} />
               </Button>
-            </Nav.Item>
+            </Nav.Item>*/
           </Nav>
         </Navbar.Collapse>
       </Container>
