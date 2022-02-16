@@ -9,8 +9,8 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">BAIBA MOHAMED </span>
-            from <span className="purple"> Guelmim, Morocco.</span>
-            <br />I am a student engineer in 3rd year web and mobile computing engineering option Web Intelligence in ENSIAS Morocco.
+            from <span className="purple"> SEMARA, Morocco.</span>
+            <br />I am a student engineer in 2nd year web and mobile computing engineering option Web Intelligence in ENSIAS Morocco.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -20,7 +20,7 @@ function AboutCard() {
               <ImPointRight /> Playing Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Listening To Music
+              <ImPointRight /> Watch Movies
             </li>
             <li className="about-activity">
               <ImPointRight /> Travelling

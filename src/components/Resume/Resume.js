@@ -34,7 +34,7 @@ function Resume() {
                 "Development of an web application 'ONEP SERVICES' for employee management (PHP, JAVASCRIPT & MySQL).",
               ]}
             />
-            <h3 className="resume-title">Certificates</h3>
+            /*<h3 className="resume-title">Certificates</h3>
             <Resumecontent
               title=""
               content={[
@@ -44,24 +44,26 @@ function Resume() {
                 "Java for Android - Coursera",
                 "Développez sites web avec Java EE - OpenClassrooms",
               ]}
-            />
+            />*/
           </Col>
           <Col md={6} className="resume-right">
             <h3 className="resume-title">Education</h3>
             <Resumecontent
               title="Web and Mobile Computing Engineering - ENSIAS, MOROCCO"
-              date="2019 - Present"
+              date="2020 - Present"
               content={["Option : Web Intelligence"]}
             />
             <Resumecontent
-              title="Preparatory Classes for Schools - CPGE LAAYOUNE, MOROCCO"
-              date="2017 - 2019"
+              title="Preparatory Classes for Schools - [CPGE LAAYOUNE,CPGE MED V] MOROCCO"
+              date="2017 - 2020"
               content={["Option : Mathematics and Physics"]}
             />
             <Resumecontent
-              title="BAC - BAB SAHRA high school GUELMIM, MOROCCO"
+              title="BAC - Moulay Rchid high school SEMARA, MOROCCO"
               date="2017"
-              content={["Option : Mathematical Sciences"]}
+              content={["Option : Mathematical Sciences",
+                        "Mention : 'trés bien'"          
+            ]}
             />
           </Col>
         </Row>
