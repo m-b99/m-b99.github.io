@@ -48,7 +48,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js ans Next.js</b>
+                <b className="purple"> React.js</b> and <b className="purple"> Vue.js</b>
               </i>
             </p>
           </Col>
@@ -87,7 +87,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/mohamed-baiba-04466a20b"
+                  href="https://ma.linkedin.com/in/mohamed-baiba-04466a20b"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"

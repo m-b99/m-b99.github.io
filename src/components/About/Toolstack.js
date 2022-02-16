@@ -2,8 +2,8 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
   SiLinux,
-  SiVisualstudiocode,
-  SiUbuntu,
+  SiVmware,
+  SiIntellijidea,
   SiWindows,
   SiBootstrap,
 } from "react-icons/si";
@@ -18,7 +18,7 @@ function Toolstack() {
         <SiWindows />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVirtualbox />
+        <SiVmware />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiIntellijidea />

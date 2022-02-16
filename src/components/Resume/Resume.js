@@ -21,30 +21,12 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
-              title="Full Stack Developer Intern - INTELLCAP, MOROCCO"
-              date="July 2021 - August 2021"
-              content={[
-                "Contribution to the development of a media platform: Web version (React.js & Node.js & Firebase) and Mobile version (React native & Firebase).",
-              ]}
-            />
-            <Resumecontent
-              title="Web Developer Intern - ONEE, MOROCCO"
+              title="Web Developer Intern - WEB SERVICE SH, MOROCCO"
               date="July 2020 - August 2020"
               content={[
-                "Development of an web application 'ONEP SERVICES' for employee management (PHP, JAVASCRIPT & MySQL).",
+                "Development of a web application for a client using PHP, JAVASCRIPT and MySQL with the help of a CMS (wordPress).",
               ]}
             />
-            /*<h3 className="resume-title">Certificates</h3>
-            <Resumecontent
-              title=""
-              content={[
-                "Become a Machine Learning Engineer - Educative",
-                "L'essentiel de JavaScript - LinkedIn Learning ",
-                "L'essentiel de React.js - LinkedIn Learning",
-                "Java for Android - Coursera",
-                "Développez sites web avec Java EE - OpenClassrooms",
-              ]}
-            />*/
           </Col>
           <Col md={6} className="resume-right">
             <h3 className="resume-title">Education</h3>
