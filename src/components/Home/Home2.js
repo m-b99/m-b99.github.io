@@ -9,6 +9,7 @@ import {
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
+
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
@@ -37,7 +38,7 @@ function Home2() {
                 </b>
               </i>
               <br />
-              <br />
+              <br /> 
               Whenever possible, I also apply my passion for developing products
               with <b className="purple">Node.js</b> and
               <i>
