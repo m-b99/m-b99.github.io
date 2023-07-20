@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Baiba Mohamed </span>
             from <span className="purple"> ES-Semara, Morocco.</span>
-            <br />I am a student engineer in 2nd year web and mobile computing engineering option Web Intelligence in <span className="purple">ENSIAS Morocco</span>.
+            <br />I am a Backend engineer graduate from <span className="purple">ENSIAS Morocco</span> with a specialization in web and mobile computing engineering.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!

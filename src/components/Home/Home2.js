@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "./DSC_0002_.jpg";
+import myImg from "../../Assets/home-main.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -25,7 +25,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C, Java, Javascript and javaEE. </b>
+                <b className="purple"> Java, Javascript, SQL, and Bash. </b>
               </i>
               <br />
               <br />
@@ -34,7 +34,7 @@ function Home2() {
                 <b className="purple">Web and Mobile Technologies and Products </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  Machine Learning.
+                  Backend Engineer.
                 </b>
               </i>
               <br />
@@ -78,7 +78,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/"
+                  href="https://twitter.com/mohamedbaibba"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -94,16 +94,6 @@ function Home2() {
                   className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/mohamed_baibba/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
                 </a>
               </li>
             </ul>

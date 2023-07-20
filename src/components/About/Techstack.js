@@ -4,12 +4,13 @@ import {
   DiJavascript1,
   DiPython,
   DiGit,
-  DiAngularSimple,
   DiJava,
   DiMysql,
   DiDocker,
 } from "react-icons/di";
-import { SiSpring ,SiPhp} from "react-icons/si";
+import { SiSpring, SiOracle, SiGnubash } from "react-icons/si";
+import { TbSql } from "react-icons/tb" ;
+import { AiOutlineCloud } from "react-icons/ai";
 
 function Techstack() {
   return (
@@ -21,25 +22,25 @@ function Techstack() {
         <SiSpring />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMysql />
+        <DiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiAngularSimple />
+        <TbSql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <SiGnubash />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiDocker />
+        <AiOutlineCloud />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <DiMysql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPhp />
+        <SiOracle />
       </Col>
     </Row>
   );

@@ -2,11 +2,14 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
   SiLinux,
-  SiVmware,
   SiIntellijidea,
   SiWindows,
-  SiBootstrap,
 } from "react-icons/si";
+import {
+  DiGit,
+  DiDocker,
+} from "react-icons/di";
+import { TbBrandVscode } from "react-icons/tb";
 
 function Toolstack() {
   return (
@@ -18,13 +21,13 @@ function Toolstack() {
         <SiWindows />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVmware />
+        <DiDocker />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiIntellijidea />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiBootstrap />
       </Col>
     </Row>
   );

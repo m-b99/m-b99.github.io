@@ -22,31 +22,44 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
-              title="Web Developer Intern - WEB SERVICE SH, MOROCCO"
-              date="July 2020 - August 2020"
+              title="PFE internship at Oracle Research and Development, MOROCCO"
+              date="March 2023 - present"
               content={[
-                "Development of a web application for a client using PHP, JAVASCRIPT and MySQL with the help of a CMS (wordPress).",
+                "Member of Oracle Graph team, which focuses on implementing graph technologies into the Oracle database. Specifically, I have been integrated into a team that focuses on developing a Java API for executing the PGQL language withinthe Oracle database.",
+              ]}
+            />
+            <Resumecontent
+              title="PFA internship at DiaaLand, MOROCCO"
+              date="July 2022 - September 2022"
+              content={[
+                "Development of a social media web application using springboot, react, microservice architecture, mysql, cassandra,mongodb, neo4j, docker and Git. ",
+              ]}
+            />
+            <Resumecontent
+              title="PFA internship at WEB SERVICE SH, MOROCCO"
+              date="July 2021 - September 2021"
+              content={[
+                "Development of a web application for a client using PHP,JAVASCRIPT and MySQL with the help of a CMS (wordPress).",
               ]}
             />
           </Col>
           <Col md={6} className="resume-right">
             <h3 className="resume-title">Education</h3>
             <Resumecontent
-              title="Web and Mobile Computing Engineering - ENSIAS, MOROCCO"
-              date="2020 - Present"
-              content={["Option : Web Intelligence"]}
+              title="National school For Computer Science (ENSIAS)"
+              date="In Rabat, 2020 - 2023"
+              content={["State engineering degree in computer engineering, option Web Engineering and Mobile Computing.",]}
             />
             <Resumecontent
-              title="Preparatory Classes for Schools - [CPGE LAAYOUNE,CPGE MED V] MOROCCO"
-              date="2017 - 2020"
-              content={["Option : Mathematics and Physics"]}
+              title="Preparatory Classes for Grandes Ecoles (CPGE)"
+              date="In Laâyoune, 2017 - 2018, in Casa 2018 - 2020"
+              content={["Certificate of Access to Engineering Schools, Mathematics and Physics Option (MP).",]}
             />
             <Resumecontent
-              title="BAC - Moulay Rchid high school SEMARA, MOROCCO"
-              date="2017"
-              content={["Option : Mathematical Sciences",
-                        "Mention : 'trés bien'"          
-            ]}
+              title="Baccalaureate"
+              date="In Es-Semara, 2017"
+              content={["Baccalaureate in mathematical sciences A at Molay Rchid highschool, Mention Very Good.",]          
+            }
             />
           </Col>
         </Row>
