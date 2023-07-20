@@ -32,14 +32,14 @@ function Resume() {
               title="PFA internship at DiaaLand, MOROCCO"
               date="July 2022 - September 2022"
               content={[
-                "Development of a social media web application using springboot, react, microservice architecture, mysql, cassandra,mongodb, neo4j, docker and Git. ",
+                "Development of a social media web application using Springboot, React, Microservice Architecture, Mysql, Cassandra, Mongodb, Neo4j, Docker and Git. ",
               ]}
             />
             <Resumecontent
               title="PFA internship at WEB SERVICE SH, MOROCCO"
               date="July 2021 - September 2021"
               content={[
-                "Development of a web application for a client using PHP,JAVASCRIPT and MySQL with the help of a CMS (wordPress).",
+                "Development of a web application for a client using Php,JavaScript and MySQL with the help of a CMS (WordPress).",
               ]}
             />
           </Col>
