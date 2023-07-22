@@ -5,6 +5,7 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
+import Certifications from "./Certifications";
 
 function About() {
   return (
@@ -44,7 +45,7 @@ function About() {
         </h1>
         <Toolstack />
 
-        
+        <Certifications />
       </Container>
     </Container>
   );
