@@ -6,6 +6,7 @@ import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 import Certifications from "./Certifications";
+import Slider from "react-slick";
 
 function About() {
   return (
