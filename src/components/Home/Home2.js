@@ -34,7 +34,7 @@ function Home2() {
                 <b className="purple">Web and Mobile Technologies and Products </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  Backend Engineer.
+                  Software Engineer.
                 </b>
               </i>
               <br />

@@ -3,6 +3,8 @@ import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
 import pdf from "../../Assets/CV.pdf";
+import pdf_en from "../../Assets/BAIBA_ Mohamed_EN.pdf";
+import pdf_fr from "../../Assets/BAIBA_Mohamed_FR.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
@@ -12,9 +14,9 @@ function Resume() {
       <Particle />
       <Container>
         <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button variant="primary" href={pdf} target="_blank">
+          <Button variant="primary" href={pdf_en} target="_blank">
             <AiOutlineDownload />
-            &nbsp;Download CV
+            &nbsp;Download CV English
           </Button>
         </Row>
 
@@ -64,8 +66,8 @@ function Resume() {
           </Col>
         </Row>
         <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button variant="primary" href={pdf} target="_blank">
-          <AiOutlineDownload />&nbsp;Download CV
+          <Button variant="primary" href={pdf_fr} target="_blank">
+          <AiOutlineDownload />&nbsp;Download CV Frensh
           </Button>
         </Row>
       </Container>
