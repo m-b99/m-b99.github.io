@@ -6,7 +6,6 @@ import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 import Certifications from "./Certifications";
-import Slider from "react-slick";
 
 function About() {
   return (
@@ -45,8 +44,22 @@ function About() {
           <strong className="purple">Tools</strong> I use
         </h1>
         <Toolstack />
-
-        <Certifications />
+        
+        <Row style={{ justifyContent: "center", padding: "10px" }}>
+          <Col
+            md={12}
+            style={{
+              justifyContent: "center",
+              paddingTop: "30px",
+              paddingBottom: "50px",
+            }}
+          >
+            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+              <strong className="purple">Certifications</strong>
+            </h1>
+            <Certifications />
+          </Col>
+        </Row>
       </Container>
     </Container>
   );
